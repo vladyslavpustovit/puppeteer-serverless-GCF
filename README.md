@@ -1,5 +1,11 @@
 # Serverless Scraping Function built with Puppeteer (GCF deployment)
 
+## Development purpose
+### Mostly to get familiar with Puppeteer and Serverless Cloud Functions ;)
+`For our movies-website my team has a Database which contains movies list and their information(poster_url, cast, title, dscr etc.).`
+`There is an IMDBmovieId property for each movie in the DB, but no movie-teaser source url. https://www.imdb.com/title/${imdbID} navigates to movie page on IMDB and then Puppeteer is coming into action`
+### Function response is a movie teaser url.
+
 ## Dependencies
 `npm i --save @google-cloud/functions-framework puppeteer`
 
