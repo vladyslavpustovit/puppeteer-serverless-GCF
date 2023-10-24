@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "scraper.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@google-cloud/functions-framework": "^3.3.0",
+    "cors": "^2.8.5",
     "puppeteer": "^21.4.0"
   }
 }

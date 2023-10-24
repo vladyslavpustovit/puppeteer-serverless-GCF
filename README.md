@@ -1,7 +1,7 @@
 # Serverless Scraping Function built with Puppeteer (GCF deployment)
 
 ## Dependencies
-`npm i --save @google-cloud/functions-framework puppeteer`
+`npm i --save @google-cloud/functions-framework puppeteer cors`
 
 ## Deploy to Cloud Functions
 `gcloud functions deploy scraper --trigger-http --runtime=nodejs16 --gen2 --memory=1024mb`
